@@ -51,6 +51,12 @@ export async function start() {
           log("new client", id);
           clients[id] = { conn, state };
 
+          // reset state
+          state.emailData = []
+          state.from = []
+          state.to = []
+          state.isReadingData = false
+
           send(SMTPCode.SERVICE_READY, SERVER_BANNER);
         }
 

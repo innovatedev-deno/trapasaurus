@@ -81,6 +81,12 @@
     "https://deno.land/x/denomailer@1.6.0/config/mail/mod.ts": "a7fafa3386a45a585d7983d816b09ddc28b2f2b84097a614f1e38685b1f62868",
     "https://deno.land/x/denomailer@1.6.0/deps.ts": "12bef188bb2a490fedc82ac1889f3d438e8a15887c423b045fee532b31a43102",
     "https://deno.land/x/denomailer@1.6.0/mod.ts": "71a197dff098194ab53691abd3c9d22a276ef04e1382eb85f5632dbcb5a83bf3",
-    "https://raw.githubusercontent.com/deepakshrma/deno-by-example/master/examples/logger.ts": "07326351f2c7d2991f44a6f2485373aa34cae7b1f12276ad0bb110fc2505ac2b"
+    "https://raw.githubusercontent.com/deepakshrma/deno-by-example/master/examples/logger.ts": "07326351f2c7d2991f44a6f2485373aa34cae7b1f12276ad0bb110fc2505ac2b",
+    "https://raw.githubusercontent.com/innovatedev-deno/trapasaurus/main/lib/files.ts": "7cb36bd7db65296653d75a06bad319656101251e4c8853893637722f98f3e010",
+    "https://raw.githubusercontent.com/innovatedev-deno/trapasaurus/main/lib/log.ts": "5de9c0fe5be6ca2feaf4d701162afff0b9c7f61e7d858cecb18f5f6033386779",
+    "https://raw.githubusercontent.com/innovatedev-deno/trapasaurus/main/lib/smtp.ts": "a214783cd785bd6cdbc813d8586f8511acfa40262f1b1df25e9e3a328fba58ff",
+    "https://raw.githubusercontent.com/innovatedev-deno/trapasaurus/main/main.ts": "09b61882dc625f494128c118fb8580b5a9b449d97ccc3a3e573973ab704517c7",
+    "https://raw.githubusercontent.com/innovatedev-deno/trapasaurus/main/smtp-trap.ts": "156f228e0645a81c79c4dec381f19ccd92e492c006a9a316a1fabec0ded85f59",
+    "https://raw.githubusercontent.com/innovatedev-deno/trapasaurus/main/webserver.ts": "14e663ef9ab4e47cf17cb0885d5e51861f2d22d269560330f0e787dfb9ae0c28"
   }
 }
