@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net=:1025,:8080 --watch=./smtp-trap.ts,./main.ts --allow-write=./mail --allow-read=./mail main.ts",
+    "smtp-trap": "deno run --allow-net=:1025 --watch=./smtp-trap.ts --allow-read=./certs smtp-trap.ts",
+    "webserver": "deno run --allow-net=:8080 --watch=./webserver.ts --allow-read=./mail --allow-write=./mail webserver.ts",
+    "client": "deno run --allow-net=:1025 --watch=./client.ts,./main.ts,./smtp-trap.ts client.ts",
+    "cert": "rm -rf ./certs && mkdir certs && openssl req -x509 -newkey rsa:4096 -keyout certs/key.pem -out certs/cert.pem -sha256 -days 365 -nodes -subj '/CN=localhost'"
+  },
+  "imports": {
+    "std/": "https://deno.land/std@0.183.0/",
+    "denomailer": "https://deno.land/x/denomailer@1.6.0/mod.ts",
+    "logger": "https://raw.githubusercontent.com/deepakshrma/deno-by-example/master/examples/logger.ts"
+  }
+}
